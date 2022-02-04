@@ -155,6 +155,10 @@ header{
     animation: moveBanner 1s 0.9s forwards;
 }
 
+.banner button:hover {
+    color: #000;
+}
+
 @keyframes moveBanner {
     0%{
         transform: translateY(10rem) rotateY(-30deg);
